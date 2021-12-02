@@ -43,7 +43,7 @@ func main() {
 		}
 		items := getRssItems(rawData)
 		for _, i := range items {
-			log.Println(i.Title)
+			log.Println(i.Title, i.PubDate)
 		}
 	}
 }
